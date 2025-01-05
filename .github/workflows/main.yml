@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capybara's Arcade</title>
+    <!-- Google Font: Press Start 2P -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #111; /* Default background color */
+            background-image: url('background.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+            color: #4CAF50;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .game-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, background-color 0.3s;
+            width: 200px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .game-item:hover {
+            background-color: #4CAF50;
+            color: black;
+            transform: scale(1.05);
+        }
+
+        .game-item a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        .game-item a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Capybara's Arcade</h1>
+        <p>Click on a game to start playing!</p>
+    </header>
+
+    <section class="game-container">
+        <div class="game-item">
+            <a href="https://example.com/game1" target="_blank">Play Game 1</a>
+        </div>
+        <div class="game-item">
+            <a href="https://example.com/game2" target="_blank">Play Game 2</a>
+        </div>
+        <div class="game-item">
+            <a href="https://example.com/game3" target="_blank">Play Game 3</a>
+        </div>
+        <div class="game-item">
+            <a href="https://example.com/game4" target="_blank">Play Game 4</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Capybara's Arcade. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+background-image: url('file:///C:/Users/William%20B.%20Hinson/Downloads/giphy.webp');
